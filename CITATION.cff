@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the research paper described in preferred-citation."
+title: "Verified Reciprocal Evolution: A Framework for Non-LLM Recursive Learning in Computational Swarms"
+authors:
+  - family-names: Jackson
+    given-names: James Paul
+date-released: 2026-11-16
+url: "https://github.com/jacksonjp0311-gif/verified-reciprocal-evolution"
+repository-code: "https://github.com/jacksonjp0311-gif/verified-reciprocal-evolution"
+abstract: "Architecture and experimental-methodology framework for non-LLM recursive computational learning, with preliminary evidence from Agent Colony, One Mind, and SYMBIOTE."
+license: CC-BY-4.0
+keywords:
+  - recursive learning
+  - computational swarms
+  - non-LLM
+  - digital evolution
+  - verified knowledge transfer
+preferred-citation:
+  type: report
+  title: "Verified Reciprocal Evolution: A Framework for Non-LLM Recursive Learning in Computational Swarms"
+  authors:
+    - family-names: Jackson
+      given-names: James Paul
+  year: 2026
+  date-published: 2026-11-16
+  url: "https://github.com/jacksonjp0311-gif/verified-reciprocal-evolution"
+  notes: "Independent research white paper. Historical manuscript edition 1.0.0, with publication corrections documented in EDITORIAL_AUDIT.md. No independent peer review is claimed. Cite the repository commit used."

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "scope": "Targeted publication validation, not experimental replication",
+  "pdf_pages": 12,
+  "docx_zip_xml_valid": true,
+  "docx_changed_members": [
+    "word/document.xml"
+  ],
+  "equations_unchanged": 38,
+  "docx_text_runs_found_in_pdf": 209,
+  "table_text_found_in_pdf": true,
+  "markdown_sections": [
+    "1. Introduction",
+    "2. Terminology, boundaries, and claim taxonomy",
+    "3. Relation to prior work",
+    "4. Implemented systems and evidence sources",
+    "5. A formal model of evidence-gated recursive learning",
+    "6. Architecture of the proposed VRE implementation",
+    "7. Empirical results and their interpretation",
+    "8. Experimental program: preregistered falsifiable studies",
+    "9. Engineering invariants and failure analysis",
+    "10. Discussion: what would count as a distinctive result?",
+    "11. Conclusion",
+    "Appendix A. Reference adaptation cycle (normative pseudocode)",
+    "Appendix B. Project evidence and frozen source identifiers",
+    "References"
+  ],
+  "source_changes_limited_to_documented_edits": true,
+  "local_link_checks": 35,
+  "images_open": true,
+  "citation_yaml_and_required_metadata": "PASS; not full CFF schema validation",
+  "private_path_secret_pattern_scan": "no matches",
+  "final_visual_review": "all PDF pages inspected; native Word export validates DOCX layout",
+  "original_archive_sha256": "adc5f15e46517dc6a4c0a1c1403c07f40084f764b2031771ab0adbc653c3d63d"
+}

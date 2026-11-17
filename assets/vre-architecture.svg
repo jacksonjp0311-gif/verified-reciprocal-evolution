@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="710" viewBox="0 0 1500 710">
+<defs><style>
+.t{font-family:DejaVu Sans,Arial,sans-serif;fill:#17283E}.small{font-family:DejaVu Sans,Arial,sans-serif;fill:#60738B;font-size:24px}.lbl{font-family:DejaVu Sans,Arial,sans-serif;fill:#30485D;font-size:18px;letter-spacing:2px}.cap{font-family:DejaVu Sans,Arial,sans-serif;fill:#162A40;font-size:32px;font-weight:700}
+</style><marker id="a" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M 0 2 L 10 6 L 0 10" stroke="#5B93A7" stroke-width="2" fill="none"/></marker></defs>
+<rect width="1500" height="710" rx="26" fill="#F4F8FA"/>
+<text x="62" y="76" class="lbl">SYSTEMS RESEARCH MODEL  /  THREE DISTINCT FUNCTIONAL ROLES</text>
+<rect x="60" y="135" width="420" height="305" rx="22" fill="#E8FAF4" stroke="#7CC7AB" stroke-width="2"/>
+<rect x="540" y="135" width="420" height="305" rx="22" fill="#E9F3FC" stroke="#87B9E4" stroke-width="2"/>
+<rect x="1020" y="135" width="420" height="305" rx="22" fill="#F3EFFD" stroke="#BCA9EA" stroke-width="2"/>
+<circle cx="111" cy="198" r="25" fill="#3DAD8C"/><text x="111" y="207" text-anchor="middle" fill="#FFFFFF" font-family="DejaVu Sans" font-weight="bold" font-size="25">1</text>
+<circle cx="591" cy="198" r="25" fill="#4B9CCB"/><text x="591" y="207" text-anchor="middle" fill="#FFFFFF" font-family="DejaVu Sans" font-weight="bold" font-size="25">2</text>
+<circle cx="1071" cy="198" r="25" fill="#8576CE"/><text x="1071" y="207" text-anchor="middle" fill="#FFFFFF" font-family="DejaVu Sans" font-weight="bold" font-size="25">3</text>
+<text x="96" y="253" class="cap">ONE MIND</text><text x="576" y="253" class="cap">AGENT COLONY</text><text x="1056" y="253" class="cap">SYMBIOTE</text>
+<text x="96" y="297" class="small">EXPLORATION LINEAGE</text><text x="576" y="297" class="small">VALIDATION LINEAGE</text><text x="1056" y="297" class="small">PERSISTENCE ENGINE</text>
+<text x="96" y="343" class="small">Candidate methods</text><text x="96" y="380" class="small">Policy variation</text>
+<text x="576" y="343" class="small">Independent Oracle</text><text x="576" y="380" class="small">Matched evaluation</text>
+<text x="1056" y="343" class="small">Conditional models</text><text x="1056" y="380" class="small">Receiver-owned outcomes</text>
+<path d="M486 290 L532 290" stroke="#4D95A0" stroke-width="3.5" marker-end="url(#a)"/>
+<path d="M964 290 L1012 290" stroke="#4D95A0" stroke-width="3.5" marker-end="url(#a)"/>
+<path d="M1232 444 L1232 508 L267 508 L267 444" stroke="#81A4BD" stroke-width="2.5" fill="none" stroke-dasharray="10 8" marker-end="url(#a)"/>
+<rect x="155" y="524" width="1190" height="112" rx="17" fill="#0E253A"/>
+<text x="750" y="570" text-anchor="middle" font-family="DejaVu Sans" font-size="27" font-weight="bold" fill="#F3FBFE">VERSIONED, RECEIVER-VERIFIED EVIDENCE RECEIPTS</text>
+<text x="750" y="605" text-anchor="middle" font-family="DejaVu Sans" font-size="22" fill="#B3D1DF">Independent evaluation   ·   Retained scope   ·   Restart continuity   ·   Fresh-task utility</text>
+<text x="750" y="679" text-anchor="middle" font-family="DejaVu Sans" font-size="17" fill="#5F7388">Conceptual architecture, not a claim of completed cross-repository deployment</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="560" viewBox="0 0 1500 560">
+<defs><style>.h{font-family:DejaVu Sans,Arial,sans-serif;font-size:24px;font-weight:700;fill:#1A3347}.s{font-family:DejaVu Sans,Arial,sans-serif;font-size:17px;fill:#5D7283}</style><marker id="arr" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto"><path d="M0 2L10 6L0 10" stroke="#528A9F" stroke-width="2" fill="none"/></marker></defs>
+<rect width="1500" height="560" rx="18" fill="#F7FAFC"/>
+<text x="46" y="65" font-family="DejaVu Sans" font-size="21" fill="#4B7C8C" letter-spacing="2">EVIDENCE-GATED ADAPTIVE CYCLE</text>
+<g>
+<rect x="40" y="128" width="236" height="172" rx="17" fill="#E5F6F5" stroke="#70BFB8" stroke-width="2"/>
+<rect x="336" y="128" width="236" height="172" rx="17" fill="#EDF2FC" stroke="#A8B8DF" stroke-width="2"/>
+<rect x="632" y="128" width="236" height="172" rx="17" fill="#FFF6E8" stroke="#E2C38B" stroke-width="2"/>
+<rect x="928" y="128" width="236" height="172" rx="17" fill="#E8F7ED" stroke="#95C5A1" stroke-width="2"/>
+<rect x="1224" y="128" width="236" height="172" rx="17" fill="#F3EDFA" stroke="#BEA5D8" stroke-width="2"/>
+</g>
+<g text-anchor="middle" class="h">
+<text x="158" y="191">OBSERVE</text><text x="454" y="191">PROPOSE</text><text x="750" y="191">VERIFY</text><text x="1046" y="191">RETAIN</text><text x="1342" y="191">TRANSFER</text>
+</g>
+<g text-anchor="middle" class="s">
+<text x="158" y="237">Scoped inputs</text><text x="158" y="264">and provenance</text>
+<text x="454" y="237">Specialist methods</text><text x="454" y="264">and hypotheses</text>
+<text x="750" y="237">Independent tests</text><text x="750" y="264">and falsification</text>
+<text x="1046" y="237">Verified updates</text><text x="1046" y="264">and full receipts</text>
+<text x="1342" y="237">Local re-evaluation</text><text x="1342" y="264">at receiver</text>
+</g>
+<g stroke="#528A9F" stroke-width="3" marker-end="url(#arr)" fill="none">
+ <path d="M279 217 L327 217"/><path d="M575 217 L624 217"/><path d="M871 217 L919 217"/><path d="M1167 217 L1215 217"/>
+ <path d="M1340 304 L1340 413 L164 413 L164 304" stroke-dasharray="10 9"/>
+</g>
+<rect x="386" y="379" width="725" height="66" rx="17" fill="#1B3348"/>
+<text x="748" y="419" text-anchor="middle" font-family="DejaVu Sans" font-size="24" fill="#ECF8FC" font-weight="bold">FRESH TASKS MEASURE THE NEXT CYCLE</text>
+<text x="750" y="516" text-anchor="middle" font-family="DejaVu Sans" font-size="17" fill="#60758A">Evidence without changed decisions is memory, not yet demonstrated learning</text>
+</svg>

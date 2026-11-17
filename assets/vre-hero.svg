@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="575" viewBox="0 0 1600 575">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#090F21"/><stop offset="0.62" stop-color="#0D1A2E"/><stop offset="1" stop-color="#0A1724"/></linearGradient>
+ <linearGradient id="lt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#72DFD0"/><stop offset=".55" stop-color="#7D9DFF"/><stop offset="1" stop-color="#B2A6FF"/></linearGradient>
+ <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="17"/></filter>
+ <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M 38 0 L 0 0 0 38" fill="none" stroke="#1A2940" stroke-width=".8"/></pattern>
+ <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#61D3CD" stroke-width="1.4"/></marker>
+</defs>
+<rect width="1600" height="575" fill="url(#bg)"/>
+<rect x="670" width="930" height="575" fill="url(#grid)" opacity=".56"/>
+<path d="M0 0H1600" stroke="#61D4CC" stroke-width="5" opacity=".9"/>
+<rect x="68" y="70" width="185" height="36" rx="18" fill="#133445" stroke="#397987"/>
+<text x="161" y="94" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" letter-spacing="3" font-weight="bold" fill="#99F4DA">RESEARCH · V1.0.0</text>
+<text x="70" y="190" font-family="DejaVu Sans,Arial,sans-serif" font-size="69" letter-spacing="2" font-weight="bold" fill="#EDF7FF">VERIFIED</text>
+<text x="70" y="277" font-family="DejaVu Sans,Arial,sans-serif" font-size="69" letter-spacing="2" font-weight="bold" fill="url(#lt)">RECIPROCAL</text>
+<text x="70" y="364" font-family="DejaVu Sans,Arial,sans-serif" font-size="69" letter-spacing="2" font-weight="bold" fill="#EDF7FF">EVOLUTION</text>
+<text x="72" y="415" font-family="DejaVu Sans,Arial,sans-serif" font-size="21" fill="#B8C9D8" letter-spacing="1.4">NON-LLM RECURSIVE LEARNING IN COMPUTATIONAL SWARMS</text>
+<path d="M70 449H590" stroke="#4E758B" stroke-width="1.5"/>
+<text x="72" y="486" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" fill="#7CE1CE" letter-spacing="2">EVIDENCE  /  ADAPTATION  /  TRANSFER</text>
+<text x="72" y="537" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" fill="#91A9BC">JAMES PAUL JACKSON    •    INDEPENDENT RESEARCH    •    2026</text>
+<!-- circuit cluster -->
+<g fill="none" stroke-linecap="round">
+<circle cx="1145" cy="286" r="196" stroke="#46D5D4" stroke-width="2" stroke-dasharray="11 16" opacity=".24"/>
+<circle cx="1145" cy="286" r="145" stroke="#7DBBFF" stroke-width="1.8" opacity=".29"/>
+<circle cx="1145" cy="286" r="101" stroke="#A19CF9" stroke-width="1.2" stroke-dasharray="3 9" opacity=".52"/>
+<path d="M886 150 L1008 188 L1145 286 L1308 184 L1432 251" stroke="#78C5E4" stroke-width="2" opacity=".55"/>
+<path d="M873 377 L1018 380 L1145 286 L1265 405 L1414 368" stroke="#6BE1C3" stroke-width="2" opacity=".63"/>
+<path d="M1008 188 L1020 382 M1308 184 L1265 405 M873 377 L886 150 M1432 251 L1414 368" stroke="#8E9FE8" stroke-width="1.2" opacity=".42"/>
+<path d="M1040 175 Q1160 100 1308 184" stroke="#A39DFF" stroke-width="1.7" opacity=".35"/>
+<path d="M1018 380 Q1130 468 1265 405" stroke="#61DBC0" stroke-width="1.7" opacity=".36"/>
+<path d="M1010 188 L1145 286 L1265 405" stroke="#75F9D2" stroke-width="3" opacity=".56"/>
+</g>
+<circle cx="1145" cy="286" r="78" fill="#3CE3CD" opacity=".10" filter="url(#glow)"/>
+<circle cx="1145" cy="286" r="62" fill="#132C43" stroke="#78D8E3" stroke-width="3"/>
+<path d="M1110 274 L1143 241 L1175 274 L1143 307 Z M1110 307 L1143 274 L1175 307 L1143 340 Z" fill="none" stroke="#A6EEDB" stroke-width="3"/>
+<circle cx="1145" cy="286" r="10" fill="#E8FAFB"/>
+<g fill="#B0E5FD" stroke="#A8EDFF" stroke-width="2">
+ <circle cx="886" cy="150" r="7"/><circle cx="1008" cy="188" r="9"/><circle cx="1308" cy="184" r="11"/><circle cx="1432" cy="251" r="7"/>
+ <circle cx="873" cy="377" r="8"/><circle cx="1018" cy="380" r="10"/><circle cx="1265" cy="405" r="11"/><circle cx="1414" cy="368" r="7"/>
+</g>
+<g font-family="DejaVu Sans,Arial,sans-serif" font-size="13" letter-spacing="2" fill="#A7BDD2">
+ <text x="872" y="127">OBSERVE</text><text x="973" y="169">PROPOSE</text>
+ <text x="1270" y="163">VERIFY</text><text x="1230" y="442">RETAIN</text><text x="835" y="417">REPLAY</text>
+</g>
+</svg>

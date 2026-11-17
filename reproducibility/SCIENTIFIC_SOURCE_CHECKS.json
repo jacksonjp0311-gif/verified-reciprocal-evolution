@@ -1,0 +1,184 @@
+{
+  "scope": "Focused source-level scientific audit at manuscript-cited snapshots. No experiments rerun; not independent academic peer review.",
+  "review_date": "2026-11-16",
+  "findings": [
+    {
+      "id": "SCI-01",
+      "severity": "Major",
+      "location": "Manuscript section 4.3",
+      "original": "an isolated structural learner tied the learned transfer arm",
+      "recommended": "an isolated structural learner tied the learned structural arms",
+      "reason": "The registered fresh-input workload used local source observations, did not transfer peer artifacts, and had reference/rank structural arms. The separate receiver-feedback scenario measured retained-case adoption/use. Avoid labeling persistence evidence as transfer evidence.",
+      "source": "https://github.com/jacksonjp0311-gif/SYMBIOTE/blob/482bf104c89721965ec006cc9f5b9f37237278bd/docs/ENGINE_EVOLUTION_002.md"
+    },
+    {
+      "id": "SCI-02",
+      "severity": "Minor",
+      "location": "Manuscript section 4.2 and evidence register C07",
+      "original": "180 of 184 corresponding Python source files (97.8%)",
+      "recommended_scope": "corresponding Python source files in colony/ and hive/",
+      "reason": "Counts reproduce exactly for the core colony/ and hive/ directories. All corresponding Python files across the full repositories total 425, of which 419 match. Scope should be recorded in evidence documentation; percentages do not need changing.",
+      "source_trees": [
+        "https://api.github.com/repos/jacksonjp0311-gif/agent-colony/git/trees/4304c25d78dab105f78cfbb9c97bf665e793bbf5?recursive=1",
+        "https://api.github.com/repos/jacksonjp0311-gif/one-mind/git/trees/4cb56b27eacd7640e3c931f5625aadf9db4fd1f6?recursive=1"
+      ]
+    }
+  ],
+  "supported": {
+    "agent_colony": {
+      "cycles": 1325,
+      "active_roles": 18,
+      "oracle_passes": 591,
+      "kept_self_heal_changes": 14,
+      "paired_runs": 156,
+      "treatment_cycles": 1325,
+      "control_cycles": 1397,
+      "method_cards_formed": 30,
+      "method_cards_tested": 0,
+      "non_routine_proofs": 0,
+      "holdout": {
+        "learning_on_verified": [
+          5,
+          3,
+          4,
+          3,
+          5
+        ],
+        "learning_off_verified": [
+          3,
+          0,
+          1,
+          2,
+          2
+        ],
+        "learning_on_harmful": [
+          0,
+          1,
+          0,
+          1,
+          0
+        ],
+        "learning_off_harmful": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "cross_version": "identical all paired seeds",
+        "safety_constrained_criterion": "NOT MET"
+      },
+      "v3": {
+        "candidate_count": 24,
+        "paired_seeds": 10,
+        "exposure_log_contains_v3": false
+      }
+    },
+    "one_mind": {
+      "core_directories": [
+        "colony/",
+        "hive/"
+      ],
+      "corresponding_python_files": 184,
+      "identical_python_blobs": 180,
+      "rounded_percent": 97.8,
+      "all_corresponding_python_files": 425,
+      "all_identical_python_blobs": 419,
+      "core_differing_paths": [
+        "colony/learning_loop.py",
+        "colony/tools/symbiotic_exchange.py",
+        "hive/bitwork.py",
+        "hive/swarm.py"
+      ],
+      "wilson_accept_permille": 400,
+      "keep_rule": "bool(heal_ok), without twin requirement"
+    },
+    "symbiote": {
+      "cases": 4,
+      "width": 8,
+      "training_observations_per_case": 9,
+      "validation_observations_per_case": 1,
+      "fresh_inputs_per_case": 32,
+      "correct_case_input_pairs_per_structural_arm": 128,
+      "isolated_structural_result": "TIE",
+      "gf2_reference_per_case": 28439,
+      "gf2_rank_per_case": 713,
+      "source_queries_per_case_both": 10,
+      "receiver_verified_outcomes": 1,
+      "receiver_capability_gain": 1,
+      "receiver_strict_economic_gain": 0,
+      "frozen_experiment_source": "bb1b88eaa771be5e201ccfcfe93840c6750eb9d7",
+      "registration_sha256": "89241bf8b120508053a91966e57c02f70343a1f8a3e8aafe3d8a59ec1b385409",
+      "historical_primary": "HOLD",
+      "structural_transfer_protocol": "NOT_DEMONSTRATED"
+    }
+  },
+  "sources": [
+    {
+      "title": "Agent Colony holdout v2",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/evidence/2026-10-16-holdout-v2/README.md",
+      "git_blob_sha1": "9e5b0ed8fed00bffa864d07261fb3ed017a46c7a"
+    },
+    {
+      "title": "Agent Colony CI status",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/society/CI_STATUS.json",
+      "git_blob_sha1": "5f453c822e74e0980a1113362b1a68304a808911"
+    },
+    {
+      "title": "Agent Colony twin scoreboard",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/society/systems/twin_scoreboard.json",
+      "git_blob_sha1": "7603640168ad1dd71916057af6a4774f15bc56bd"
+    },
+    {
+      "title": "Agent Colony learning report",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/society/LEARNING.md",
+      "git_blob_sha1": "4f173785a60b781ad8f2c9f0a83d7d38223b30f9"
+    },
+    {
+      "title": "Agent Colony preregistration",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/evaluation/PREREGISTRATION.md",
+      "git_blob_sha1": "691fff80b19f0f46f4e59c920dcc3746a12e84f6"
+    },
+    {
+      "title": "Agent Colony exposure log",
+      "url": "https://github.com/jacksonjp0311-gif/agent-colony/blob/4304c25d78dab105f78cfbb9c97bf665e793bbf5/evaluation/EXPOSURES.jsonl",
+      "git_blob_sha1": "364a68526de6e485ef723e11d44f4f514146b11d"
+    },
+    {
+      "title": "SYMBIOTE engineering report",
+      "url": "https://github.com/jacksonjp0311-gif/SYMBIOTE/blob/482bf104c89721965ec006cc9f5b9f37237278bd/docs/ENGINE_EVOLUTION_002.md",
+      "git_blob_sha1": "4c9bdf174480677f6279cbea9bf0cc7108fe57cf"
+    },
+    {
+      "title": "SYMBIOTE machine-readable summary",
+      "url": "https://github.com/jacksonjp0311-gif/SYMBIOTE/blob/482bf104c89721965ec006cc9f5b9f37237278bd/experiments/engine-evolution-002/summary.json",
+      "git_blob_sha1": "d50cf000672f9a2a716adb0a6d841a03d1349deb"
+    },
+    {
+      "title": "SYMBIOTE historical hold",
+      "url": "https://github.com/jacksonjp0311-gif/SYMBIOTE/blob/482bf104c89721965ec006cc9f5b9f37237278bd/docs/RESEARCH_V05_PRIMARY_HOLD.md",
+      "git_blob_sha1": "d6a2d7468f3e47bfa849b5a45279913ae74ced46"
+    },
+    {
+      "title": "SYMBIOTE transfer protocol",
+      "url": "https://github.com/jacksonjp0311-gif/SYMBIOTE/blob/482bf104c89721965ec006cc9f5b9f37237278bd/docs/RESEARCH_V06_PROTOCOL.md",
+      "git_blob_sha1": "00d5eb1f84a000d7b09a28de2ef404d336126252"
+    },
+    {
+      "title": "One Mind keep rule",
+      "url": "https://github.com/jacksonjp0311-gif/one-mind/blob/4cb56b27eacd7640e3c931f5625aadf9db4fd1f6/colony/learning_loop.py",
+      "git_blob_sha1": "26b39d2db9f381a29f61c683c75889cf6a959974"
+    },
+    {
+      "title": "One Mind threshold",
+      "url": "https://github.com/jacksonjp0311-gif/one-mind/blob/4cb56b27eacd7640e3c931f5625aadf9db4fd1f6/hive/bitwork.py",
+      "git_blob_sha1": "a5774f75b3ca1fd033c9c12eacc58ce4f5154cf1"
+    }
+  ],
+  "limitations": [
+    "No independent re-execution of archived experiments or qualification of the live implementations.",
+    "One Mind workflow-history failure claims were not independently inspected in this bounded review; code-level lowered threshold, relaxed keep rule and stale threshold comments were verified.",
+    "Supporting NOMAD, Adaptive Agents and PEGASUS repository details and external literature bibliography were outside this delegated scope.",
+    "Proposed utility/causal/transfer equations are explicitly engineering definitions and test targets, not claimed theorems. Cost accounting must avoid double counting exchange/verification already included in U; current prose does not formally specify that boundary."
+  ]
+}
